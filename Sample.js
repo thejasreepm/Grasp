@@ -9,7 +9,7 @@
 						 
 						 
 function download(data, strFileName, strMimeType) {
-	var help = "hello"
+	
 	var selfoption = window, // this script is only for browsers anyway...
 		u = "application/octet-stream", // this default mime also triggers iframe downloads
 		m = strMimeType || u, 
